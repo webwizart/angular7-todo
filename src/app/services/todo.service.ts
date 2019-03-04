@@ -13,7 +13,7 @@ const httpOptions = {
 })
 export class TodoService {
   todosUrl: string = 'https://jsonplaceholder.typicode.com/todos'
-  todosLimit = '?_limit=5';
+  todosLimit = '?_limit=30';
 
   constructor(private http: HttpClient) { }
   

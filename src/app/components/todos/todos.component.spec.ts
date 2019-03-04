@@ -22,4 +22,13 @@ describe('TodosComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should add a todo', () =>{
+    const todo = {
+      id:1,
+      title: 'tada',
+      completed: false
+    }
+    component.addTodo(todo);
+  } )
 });
